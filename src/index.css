@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0eef3;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_input {
+    height: 35px;
+    width: 165px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+li {
+    margin-top: 15px;
+}
+.checked_lists {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: green;
+}
+.add {
+    height: 30px;
+    width: 60px;
+    background-color: green;
+    color: white;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    margin-left: 0.5rem;
+  }
+
+
+  .category-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .category-tabs button {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .category-tabs button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+  }
+  .todo-input-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .todo_input {
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .category_input {
+    width: 50%; /* Adjust the width as needed */
+  }
+
+  .todo-input-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .todo_input {
+    flex: 1;
+  }
+  
+  .category_input {
+    width: 150px;
+  }
+  
+  .add-button {
+    margin-left: 1rem;
+    background-color: green;
+    width: 80px;
+    height: 20px;
+    border-radius: 20;
+  }
